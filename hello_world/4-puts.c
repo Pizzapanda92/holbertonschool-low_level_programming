@@ -1,9 +1,7 @@
 #include <stdio.h>
-/*print test*/
-int main(void) 
-{
+int main(void) {
+/*test print*/ 
 
-    /* Notice that final new line character is implicit */
-    puts("\"Programming is like building a multilingual puzzle\n");       
-         return 0;
-{
+    puts( "Programming is like building a multilingual puzzle" );       
+return 0;
+}
