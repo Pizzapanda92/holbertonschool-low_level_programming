@@ -24,7 +24,7 @@ int main(void)
 	/*Extracting the last digit of n */
 	last_digit = n % 10;
 
-	printf("Last digit of %d is", n);
+	printf("Last digit of %d is ", n);
 
 	if (last_digit > 5)
 {
