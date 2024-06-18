@@ -4,7 +4,15 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/*main print if n is negative,positive or zero*/
+/**
+ * main - Entry point
+ *
+ * Description: This program will assign a random number to the variable `n`
+ * each time it is executed. It will then print whether the number stored
+ * in the variable `n` is positive, zero, or negative.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 
 {
