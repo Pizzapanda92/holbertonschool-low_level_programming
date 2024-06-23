@@ -1,15 +1,50 @@
+#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
+
 /**
- * print_alphabet_x10 - function that prints the alphabet
- * in lowercase, followed by a new line 10 times
+ * times_table -  function that prints the 9 times table, starting with 0.
+ *
  *
  * Return: void.
  */
 
 void times_table(void)
-
 {
-	char num = 0;
+	int u;
+	int m;
+	int r;
 
-	while (num <= 10)
+	for (u = 0; u < 10; u++)
+	{
+		for (m = 0; m < 10; m++)
+		{
+			r = u * m;
+
+			if (r < 10)
+			{
+				if (m > 0)
+				{
+					_putchar(' ');
+				}
+				_putchar('0' + r);
+			}
+			if (r >= 10)
+			{
+				_putchar('0' + r / 10);
+				_putchar('0' + r % 10);
+			}
+
+			if (m < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar('\n');
+			}
+		}
+	}
+}
 
