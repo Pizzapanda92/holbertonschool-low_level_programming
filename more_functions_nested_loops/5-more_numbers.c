@@ -10,28 +10,16 @@
 void more_numbers(void)
 
 {
-	int l = 0;
+	int i, j;
+	char numbers[] = "01234567891011121314";
+	int length = 20;
 
-	while (l <= 9)
-
-	{
-		int n = 0;
-
-		while (n <= 14)
-
+		for (i = 0; i < 10; i++) 
 		{
-			if (n >= 10)
-			{
-				_putchar('1');
-				_putchar('0' + (n - 10));
-			}
-			else
-			{
-				_putchar('0' + n);
-			}
-			n++;
+		for (j = 0; j < length; j++) 
+		{
+		_putchar(numbers[j]);
 		}
-		_putchar('\n');
-		l++;
+	_putchar('\n');
 	}
-} 
+}
