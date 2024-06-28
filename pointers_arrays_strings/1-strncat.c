@@ -7,7 +7,7 @@
  * @src : source
  * @n: The maximum number of bytes from src to append.
  *
- * Return : A pointer to the resulting string dest.
+ * Return: A pointer to the resulting string dest.
  */
 
 char *_strncat(char *dest, char *src, int n)
