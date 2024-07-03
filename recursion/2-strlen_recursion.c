@@ -1,10 +1,12 @@
-#inculde "main.h"
+#include "main.h"
 
 /**
- * _strlen_recursion - Calcule la longueur d'une chaîne de caractères de manière récurs
- * @s: Pointeur vers la chaîne de caractères dont on veut calculer la longueu
+ * _strlen_recursion - Calcule la longueur d'une chaîne d
+ * caractères de maniè r�cursive
  *
- * Return: Le nombre de caractères dans la chaîn
+ * @s: Pointeur vers la chaîne de caractères dont on veut calculer la longu
+ *
+ * Return: Le nombre de caractères dans la cha�
  */
 
 int _strlen_recursion(char *s)
