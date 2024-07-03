@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * factorial - Fonction récursive pour calcule
  * le factoriel d'un nombre entier positi
