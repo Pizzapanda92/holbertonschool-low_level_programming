@@ -3,15 +3,14 @@
 #include "stdio.h"
 
 /**
- * main - Point d'entrée du programm
+ * main - Point d'entrée du progra
  *
- * @argc: Nombre d'arguments passés au programm
+ * @argc: Nombre d'arguments passés au progra
  * @argv: Tableau de pointeurs vers les arguments
  *
- * Retourne : Si le nombre d'arguments n'est pas 3,
- * retourne 1. Sinon, retourne 0.
+ * Return: 0 ou error si le nombre dargument pas = 3.
+ *
  */
-
 
 int main(int argc, char **argv)
 {
@@ -21,7 +20,7 @@ int main(int argc, char **argv)
 
 	if (argc != 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 
@@ -33,6 +32,6 @@ int main(int argc, char **argv)
 		result = i * j;
 
 		printf("%d\n", result);
+		return (0);
 		}
-	return (0);
 }
