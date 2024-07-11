@@ -2,7 +2,44 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+/**
+ * _strlen -print
+ * @s: is the variable
+ * Return: length
+ */
 
+int _strlen(char *s)
+{
+	int length = 0;
+
+	for (; *s != '\0'; s++)
+		length++;
+	{
+		return (length);
+	}
+}
+
+/**
+ * *_strcpy -print
+ * @dest: pointer
+ * @src: pointer
+ * Return: dest
+ */
+
+char *_strcpy(char *dest, char *src)
+{
+	int i = 0;
+
+	while (src[i] != 0)
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	dest[i] = '\0';
+
+	return (dest);
+
+}
 /**
  * new_dog - Creates a new dog.
  * @name: The name of the dog.
