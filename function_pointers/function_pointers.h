@@ -3,6 +3,7 @@
 
 #include <unistd.h>
 #include <ctype.h>
+#include "calc.h"
 
 int _putchar(char c);
 void print_name(char *name, void (*f)(char *));
