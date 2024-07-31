@@ -12,31 +12,31 @@
 
 void print_binary(unsigned long int n)
 {
-    unsigned long int nav;
+	unsigned long int nav;
 
-    if (n == 0)
-    {
-        _putchar('0');
-        return;
-    }
+	if (n == 0)
+	{
+		_putchar('0');
+		return;
+	}
 
-    nav = 1UL << (sizeof(unsigned long int) * 8 - 1);
+	nav = 1UL << (sizeof(unsigned long int) * 8 - 1);
 
-    while ((n & nav) == 0)
-    {
-        nav >>= 1;
-    }
+	while ((n & nav) == 0)
+	{
+		nav >>= 1;
+	}
 
-    while (nav > 0)
-    {
-        if ((n & nav) != 0)
-        {
-            _putchar('1');
-        }
-        else
-        {
-            _putchar('0');
-        }
-        nav >>= 1;
-    }
+	while (nav > 0)
+	{
+		if ((n & nav) != 0)
+		{
+			_putchar('1');
+		}
+		else
+		{
+			_putchar('0');
+		}
+		nav >>= 1;
+	}
 }
