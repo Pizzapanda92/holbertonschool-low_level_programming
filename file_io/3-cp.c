@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include "main.h"
+#include "main.h"
+#include "main.h"
 
 /**
  * main - Copies the content of a file to another file.
