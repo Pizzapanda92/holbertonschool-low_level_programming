@@ -9,7 +9,7 @@
  * Return: 0 on success, or exits with error codes on failure.
  */
 
-int main(int ac, char **av)
+int main(int ac, char *av[])
 {
 	int fd_from, fd_to, rd_stat, wr_stat;
 	mode_t perm = S_IRUSR | S_IWUSR | S_IWGRP | S_IRGRP | S_IROTH;
